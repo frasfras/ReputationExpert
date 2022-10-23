@@ -1,5 +1,5 @@
 # ReputationExpert
 
-<h4>Inspiration</h4>
+<h2>Inspiration</h2>
 
 We were inspired by One of our members
