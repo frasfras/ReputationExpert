@@ -8,7 +8,7 @@ Hundreds of farmers in Madhya Pradesh's Betul district, who had entered a contra
 
 -To interact with Social media monitoring: <br/>
 function if_brand_mentioned(){
- echo"how is brand mentioned "
+ <br/> &nbsp echo"how is brand mentioned "
 }
 -Mentions gathered in social Media 
 
