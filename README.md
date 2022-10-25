@@ -13,7 +13,7 @@ function if_brand_mentioned(){
 <h2>What it does</h2> <br/>
 function if_brand_mentioned(){
 <br/> echo"get document analysis brand mentioned "
- <br/>get "the summary for legal documents"
+ <br/>get "the summary for  documents"
 } <br/>
  get keywords of topics  and brands mentioned  
  
