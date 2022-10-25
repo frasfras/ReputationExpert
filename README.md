@@ -2,9 +2,7 @@
 
 <h2>Inspiration</h2>
 
-We were inspired by One of our members
-nspiration
-Hundreds of farmers in Madhya Pradesh's Betul district, who had entered a contract for drumstick farming in 2018, are now fighting to get a case registered against a company that disappeared after allegedly cheating them. The Rising Frauds against Farmers was our inspiration to help them. We found two major problems that farmers face:
+We were inspired by One of our members.It was inspired by the lack   process in  sustainable reputation and uses. somebody's reputation can be ruined with 20 characters of text.For businesses it's the reputation of the business that matters.Maintaining your reputation is something that's ever been able to be done before so how are we going to protect the reputation of your business
 
 -To interact with Social media monitoring: <br/>
 function if_brand_mentioned(){
