@@ -6,7 +6,7 @@ We were inspired by One of our members.It was inspired by the lack   process in 
 
 -To interact with Social media monitoring: <br/>
 function if_brand_mentioned(){
- <br/> &nbsp echo"how is brand mentioned "
+ <br/> - echo"how is brand mentioned "
 }
 -Mentions gathered in social Media 
 
