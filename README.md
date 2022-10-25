@@ -6,8 +6,8 @@ We were inspired by One of our members.It was inspired by the lack   process in 
 
 -To interact with Social media monitoring: <br/>
 function if_brand_mentioned(){
- <br/> - echo"how is brand mentioned "
-}
+ <br/>  echo"how is brand mentioned "
+}<br/>
 -Mentions gathered in social Media 
 
 <h2>What it does</h2> <br/>
@@ -22,6 +22,6 @@ function if_brand_mentioned(){
   <h2>ExpertAI Technology</h2>
 In order to deliver a prototype ,will use the Expert.AI NLP Api
 
-Pega platform - Create alert keywords Workflow 
-Expert.AI NLP Api 
-React -Design UI
+Pega platform - Create alert keywords Workflow |
+| Expert.AI NLP Api 
+| React -Design UI
