@@ -2,7 +2,7 @@
 
 <h2>Inspiration</h2>
 
-We were inspired by One of our members.It was inspired by the lack   process in  sustainable reputation and uses. somebody's reputation can be ruined with 20 characters of text.For businesses it's the reputation of the business that matters.Maintaining your reputation is something that's ever been able to be done before so how are we going to protect the reputation of your business
+We were inspired by One of our members to Navigate the complex world of social media.It was inspired by  the lack   process in  sustainable reputation and uses. somebody's reputation can be ruined with 20 characters of text.For businesses it's the reputation of the business that matters.Maintaining your reputation is something that's ever been able to be done before so how are we going to protect the reputation of your business
 
 -To interact with Social media monitoring: <br/>
 function if_brand_mentioned(){
