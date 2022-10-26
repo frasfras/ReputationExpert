@@ -5,10 +5,8 @@ import Dashboard from './components/Dashboard';
 import Login from './components/Login';
 import Navbar from './components/Navbar';
 import Signup from './components/Signup';
-import Search from './components/search';
 //import Context from './context';
 import SingleCocktail from './pages/SingleMention';
-//import SearchBar from './components/searchBar';
 
 function App(props) {
   return (
