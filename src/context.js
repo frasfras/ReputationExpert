@@ -9,6 +9,7 @@ export default function Context() {
   const [error, setError] = useState(null);
 
   useEffect(() => {
+      // temporary holder api for http://localhost:1880/monitors 
     fetch(`https://mocki.io/v1/b030311b-6c6f-4018-9902-9219bb8582ee?_limit=8`)
       .then((response) => {
         if (!response.ok) {
