@@ -90,24 +90,29 @@ function Signup(props) {
                     
                     <div class="col-lg-12">
                         
-                        <div class="p-5">
+                          <div class="p-5">
                             <div class="text-center">
-                                <h4 class="text-dark mb-4">Create an Account!</h4>
+                                <h4 class="text-dark mb-4">Register an Account!</h4>
                             </div>
                             <form class="user" onSubmit={submit}>
                                 <div class="form-group row">
                                     <div class="col-sm-6 mb-3 mb-sm-0"><input class="form-control form-control-user" type="text" id="first_name" placeholder="First Name" name="firstname" onChange={onChange} value={user.firstname}/></div>
+                                 </div>
+                                 <div class="form-group row">
                                     <div class="col-sm-6"><input class="form-control form-control-user" type="text" id="last_name" placeholder="Last Name" name="lastname" onChange={onChange} value={user.lastname}/></div>
                                 </div>
-                                <div class="form-group"><input class="form-control form-control-user" type="email" id="email" aria-describedby="emailHelp" placeholder="Email Address" onChange={onChange} name="email" value={user.email}/></div>
+                                <div class="form-group">
+                                    <input class="form-control form-control-user" type="email" id="email" aria-describedby="emailHelp" placeholder="Email Address" onChange={onChange} name="email" value={user.email}/></div>
                                 <div class="form-group row">
                                     <div class="col-sm-6 mb-3 mb-sm-0"><input class="form-control form-control-user" type="password" id="password1" placeholder="Password" onChange={onChange} value={user.passord} name="password"/></div>
+                                 </div>
+                                 <div class="form-group row">
                                     <div class="col-sm-6"><input class="form-control form-control-user" type="password" id="password2" placeholder="Repeat Password" onChange={onChange} value={user.password_repeat} name="password_repeat"/></div>
-                                </div><button class="btn btn-primary btn-block text-white btn-user" type="submit">Register Account</button>
+                                </div><button class="btn btn-primary btn-primary text-white btn-user" type="submit">Register </button>
                                 
                             </form>
                             
-                            <div class="text-center"><Link class="small" to="/login">Already have an account? Login!</Link></div>
+                            <div class="text-center"><Link class="small" to="/login">Already member ? Login!</Link></div>
                         </div>
                     </div>
                 </div>
