@@ -1,7 +1,6 @@
 import axios from 'axios';
 import React,{useEffect, useState} from 'react';
 import {Link } from 'react-router-dom';
-import Search from './search';
 import Context from '../context';
 import { useParams } from 'react-router-dom'
 
