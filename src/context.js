@@ -9,7 +9,7 @@ export default function Context() {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    fetch(`http://localhost:1880/monitors?_limit=8`)
+    fetch(`https://frans-77.fred.sensetecnic.com/api/monitors?_limit=8`)
       .then((response) => {
         if (!response.ok) {
           throw new Error(
