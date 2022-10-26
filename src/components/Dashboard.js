@@ -16,21 +16,7 @@ function Dashboard(props) {
     const {id} = useParams()
 
     const logout=()=>{
-        // const token=localStorage.getItem('token');
-        // const config={
-        //     headers:{
-        //         'Authorization':`Bearer ${token}`,
-        //         'Content-type':'application/json'
-        //     }
-        // }
-
-        // axios.post('http://localhost:5000/logout',config).then((res)=>{
-        //     console.log(res);
-            
-        //     props.history.push('/');
-        // }).catch((err)=>{
-        //     console.log(err);
-        // })
+       
         localStorage.removeItem('email')
         localStorage.removeItem('token')
         localStorage.removeItem('name')
@@ -130,6 +116,7 @@ function Dashboard(props) {
                 text:text
             }
         },config).then((res)=>{
+        console.log(process.env.REACT_APP_EXPERT_AI_TOKEN);
             console.log(res.data)
             setTopics(res.data.data.topics)
             setMain(res.data.data.mainSentences)
