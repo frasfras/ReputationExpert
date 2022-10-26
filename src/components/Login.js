@@ -84,7 +84,7 @@ function Login(props) {
                                             <h4 class="text-dark mb-4">Reputation Expert</h4>
                                         </div>
     
-                                        <h5>MENTIONS FEED group analysis for mentions.Get summary for MENTIONS</h5>
+                                        <h5>MENTIONS FEED group analysis for brand mentions.Get summary for online MENTIONS</h5>
                                         <ul class="list-group">
                                             <li class="list-group-item d-flex justify-content-between align-items-center active">
                                             Analyzes tonality and sentiment
@@ -98,7 +98,7 @@ function Login(props) {
 
                                         <a href="https://airtable.com/"><img src="https://v5.airtableusercontent.com/v1/10/10/1667433600000/q0SliateS-3lrvjkzlARFA/5Xut2ow7GNHd33_QTU9zXmzsVWFy_X8DVQwtPNnh7_R1uxdeeePiY_zk4r9H1lN8c9IOaYVTtjlqPBbkjqLEuQ/-SjCVTYs0XKUKyciePcF4Zr7pDtfPHGxlJi9G5xP_3U" alt="Reputation Alert" border="0"/></a>
                                         
-                                        <h5>setup Alert for Media Monitoring</h5>
+                                        <h5>Setup Alert for Media Monitoring</h5>
                                         <p><b> 2022 driven by  Expert.AI</b></p>
                                         
                                        
