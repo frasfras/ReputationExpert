@@ -184,13 +184,7 @@ const [data,setData] =useState ([
             {/* <button onClick={refreshPage}> Try another!</button> */}
             <div><Link className="nav-link" to={`/cocktail/${id}`}><i style={{marginRight:'5px'}} className="fa fa-bar-chart"></i>Single Mention</Link></div>
             <div style={{marginTop:'2rem'}}class="form-group">
-            {/* <label for="exampleFormControlSelect1">Choose Language</label>
-            <select class="form-control" id="exampleFormControlSelect1" onChange={selectLanguage}>
-            <option  >English fu</option>
-              <option>tag</option>
-             
-              
-            </select> */}
+           
           </div>
           <div class="container">
             <div class="row">
