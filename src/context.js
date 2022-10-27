@@ -46,9 +46,9 @@ export default function Context() {
     </form>
         
                 <ul></ul>
-      {loading && <div>A moment please...</div>}
+      {loading && <div>Loading...</div>}
       {error && (
-        <div>{`There is a problem fetching the post data - ${error}`}</div>
+        <div>{`this is a bottleneck fetching the post data - ${error}`}</div>
       )}
       <ul>
         
