@@ -16,6 +16,7 @@ function if_brand_mentioned(){
 <br/> echo"get document analysis brand mentioned "
  <br/>get "the summary for  documents"
 } <br/>
+ gets meaning of words  used positive or negativenes
  get keywords of topics  and brands mentioned  
  
  <h2>How it works </h2>
