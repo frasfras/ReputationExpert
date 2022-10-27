@@ -6,9 +6,9 @@ We were inspired by One companys lack of media monitoring .   to Navigate the co
 
 -To interact with Social media monitoring: <br/>
 function if_brand_mentioned(){
- <br/>  echo"how is brand mentioned "
+ <br/>  echo"Analyze tone and sentiment this brand mentioned "
 }<br/>
--Mentions gathered in social Media 
+-Mentions gathered in social Media what was details .
 
 <h2>What it does</h2> <br/>
  if_brand_mentioned(){
