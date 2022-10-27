@@ -18,7 +18,7 @@ function if_brand_mentioned(){
 } <br/>
  gets meaning of words  used positive or negativenes
  get keywords of topics  and brands mentioned  
- 
+ CREATE ALERT WITH KEYWORDS 
  <h2>How it works </h2>
 
  <img src='https://v5.airtableusercontent.com/v1/10/10/1668038400000/XbidjmtuweiqAMmGWQUYHg/6WjzJjN5XFngZN4rWYdtkzReNXglGkNBZ1UaZAUKjAfPjvvhJrkvRhu_s1niP2-RPNBjRK5t40z6HXA_eUay5w/8yCMRqlWR7fNCJvMbaDf8het7ER-2nNP3AOyqTSVpU4'  />
