@@ -24,5 +24,6 @@ function if_brand_mentioned(){
 In order to deliver a prototype ,will use the Expert.AI NLP Api
 
 Pega platform - Create alert keywords Workflow |
+Node-Red takes Rss feed of website converts links title into API
 | Expert.AI NLP Api 
 | React -Design UI |
