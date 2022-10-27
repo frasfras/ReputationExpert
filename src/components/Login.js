@@ -84,7 +84,7 @@ function Login(props) {
                                             <h4 class="text-dark mb-4">Reputation Expert</h4>
                                         </div>
     
-                                        <h5>MENTIONS FEED group analysis for brand mentions.Get summary for online MENTIONS</h5>
+                                        <h5>MENTIONS FEED build analysis for brand mentions.Get summary for online MENTIONS in a few clicks</h5>
                                         <ul class="list-group">
                                             <li class="list-group-item d-flex justify-content-between align-items-center active">
                                             Analyzes tonality and sentiment
@@ -94,11 +94,15 @@ function Login(props) {
                                             Filters out irrelevant data
                                                 <span class="badge badge-primary badge-pill">175</span>
                                             </li>
+                                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                            Setup Alert 
+                                                <span class="badge badge-primary badge-pill">10</span>
+                                            </li>
                                         </ul>
 
                                         <a href="https://airtable.com/"><img src="https://v5.airtableusercontent.com/v1/10/10/1667433600000/q0SliateS-3lrvjkzlARFA/5Xut2ow7GNHd33_QTU9zXmzsVWFy_X8DVQwtPNnh7_R1uxdeeePiY_zk4r9H1lN8c9IOaYVTtjlqPBbkjqLEuQ/-SjCVTYs0XKUKyciePcF4Zr7pDtfPHGxlJi9G5xP_3U" alt="Reputation Alert" border="0"/></a>
                                         
-                                        <h5><a href="https://heroic-twilight-1c0160.netlify.app/">Setup Alert for Media Monitoring</a></h5>
+                                        <h5><a href="https://heroic-twilight-1c0160.netlify.app/" target="_blank">Setup Alert for Media Monitoring</a></h5>
                                         <p><b> 2022 driven by  Expert.AI</b></p>
                                         
                                        
