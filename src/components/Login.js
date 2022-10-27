@@ -3,7 +3,7 @@ import axios from 'axios';
 import {Link } from 'react-router-dom';
 function Login(props) {
 
-    const openRoutes=(
+    const activRoutes=(
         <nav className="navbar navbar-dark navbar-expand-lg fixed-top text-primary bg-dark portfolio-navbar gradient" >
         <div className="container-fluid"><Link className="navbar-brand logo" href="/">Rep Alert Expert</Link><button data-toggle="collapse" className="navbar-toggler" data-target="#navbarNav"><span className="sr-only">Toggle navigation</span><span className="navbar-toggler-icon"></span></button>
             <div className="collapse navbar-collapse"
@@ -69,7 +69,7 @@ function Login(props) {
     return (
         
         <div>
-        {openRoutes}
+        {activRoutes}
         <div class="container">
             <div class="row justify-content-center">
             <div class="col-md-7 col-lg-7 col-xl-7">
