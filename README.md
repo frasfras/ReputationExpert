@@ -18,8 +18,7 @@ function if_brand_mentioned(){
  get keywords of topics  and brands mentioned  
  
  <h2>How it works </h2>
- ![Screen Shot 2022-10-27 at 4 53 20 PM](https://user-images.githubusercontent.com/65541080/198266360-cfb2f147-3918-4494-8c52-cbff675d1dbc.png)
-
+ ![Alt works](https://v5.airtableusercontent.com/v1/10/10/1668038400000/XbidjmtuweiqAMmGWQUYHg/6WjzJjN5XFngZN4rWYdtkzReNXglGkNBZ1UaZAUKjAfPjvvhJrkvRhu_s1niP2-RPNBjRK5t40z6HXA_eUay5w/8yCMRqlWR7fNCJvMbaDf8het7ER-2nNP3AOyqTSVpU4)
  
   <h2>ExpertAI Technology</h2>
 In order to deliver a prototype ,will use the Expert.AI NLP Api
