@@ -6,7 +6,7 @@ We were inspired by One companys lack of media monitoring .   to Navigate the co
 
 -To interact with Social media monitoring: <br/>
 function if_brand_mentioned(){
- <br/>  echo"Analyze tone and sentiment this brand mentioned "
+ <br/>  echo"Analyze tone and sentiment of this brand mentioned "
 }<br/>
 -Mentions gathered in social Media what was details .
 
@@ -25,4 +25,4 @@ In order to deliver a prototype ,will use the Expert.AI NLP Api
 
 Pega platform - Create alert keywords Workflow |
 | Expert.AI NLP Api 
-| React -Design UI
+| React -Design UI |
