@@ -4,13 +4,14 @@
 
 We were inspired by One companys lack of media monitoring .   to Navigate the complex world of social media.It was inspired by  the lack   process in  sustainable reputation and uses. somebody's reputation can be ruined with 20 characters of text.For businesses it's the reputation of the business that matters.Maintaining your reputation is something that's ever been able to be done before so how are we going to protect the reputation of your business
 
--To interact with Social media monitoring: <br/>
+-To interact with Social media monitoring So company : <br/>
 function if_brand_mentioned(){
  <br/>  echo"Analyze tone and sentiment of this brand mentioned "
 }<br/>
--Mentions gathered in social Media what was details .
+-track Mentions gathered in social Media get details .
 
 <h2>What it does</h2> <br/>
+ Node-Red takes Rss feed of website, it converts links title into API. RepAlert fetches monitoring Api From frontend dashboard. 
  if_brand_mentioned(){
 <br/> echo"get document analysis brand mentioned "
  <br/>get "the summary for  documents"
