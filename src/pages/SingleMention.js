@@ -15,7 +15,7 @@ function SingleMention ()  {
     const {id} = useParams()
     const ref = useRef()
 const [ifmentioned,setIfmentioned]=useState(false);
-const [apptoken,setApptoken]=useState('eyJraWQiOiI1RDVOdFM1UHJBajVlSlVOK1RraXVEZE15WWVMMFJQZ3RaUDJGTlhESHpzPSIsImFsZyI6IlJTMjU2In0.eyJjdXN0b206Y291bnRyeSI6IlBIIiwic3ViIjoiOTdmNTA0OWYtZDBmNC00MDRmLTg5N2MtM2RkMzhjYWExODRiIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImN1c3RvbTpwZXJzb25hbGl6YXRpb25BdXRoIjoiMSIsImlzcyI6Imh0dHBzOlwvXC9jb2duaXRvLWlkcC5ldS13ZXN0LTEuYW1hem9uYXdzLmNvbVwvZXUtd2VzdC0xX0FVSGdRMDhDQiIsImNvZ25pdG86dXNlcm5hbWUiOiI5N2Y1MDQ5Zi1kMGY0LTQwNGYtODk3Yy0zZGQzOGNhYTE4NGIiLCJjdXN0b206Y29tcGFueSI6ImtvcnZlciIsImF1ZCI6IjFlZ3M2M3E5OXAzc2ViZWNoc2I3Mjl0ODBvIiwiZXZlbnRfaWQiOiI5YWNkY2Q2Yy00YjZjLTQwOTAtYmViOC1jNTdhNWQ0ZGI3NWUiLCJ0b2tlbl91c2UiOiJpZCIsImF1dGhfdGltZSI6MTY2Njg2NjIxMSwibmFtZSI6ImZyYXMiLCJleHAiOjE2NjY5NTI2MTEsImlhdCI6MTY2Njg2NjIxMSwiZmFtaWx5X25hbWUiOiJzaWx2IiwiZW1haWwiOiJjb25zaXN0ZW5nb2xmMUBnbWFpbC5jb20iLCJjdXN0b206bWFya2V0aW5nQXV0aCI6IjEifQ.ZDYpmII7Q_fhAj8Hne_87q4sNSI_XDflReQ6iE480fX1NmJ_6M30c1F3QNEuI1fTxnkCDigg64TnxHPHyh1Qgsol2Xp_seIFUQuiaVK8N6PRUo27j6xYDB7y-lfZn3udQ5Z4oAz17vWautrhzF5JO0wXKm6_XYCPQoValwPwYpiDRHczV6s5OgyN_u6G-FxLFzoU7x95OaACkwLFj_irJguiBep8fLSevx8mhZuop198aEmjYJ_xaMKjloDgP0uLR8QHylNqNpHBS6g-W9qxRRgENy9mAXZW_aZShX1zva4Ak1dF5yiqzAs9GvksOAxjD1E-5hJAix_rDM7ybSXVyw');
+const [apptoken,setApptoken]=useState('');
 
 const logout=()=>{
 
@@ -52,7 +52,7 @@ const baseURL='https://nlapi.expert.ai/v2/analyze/standard/en/relevants'
 
 
 const config = {
-    headers: { 'Authorization': `Bearer ${apptoken}`,
+    headers: { 'Authorization': `Bearer ${process.env.REACT_APP_EXPERT_AI_TOKEN}`,
     'Content-type':'application/json'
  }
 };
