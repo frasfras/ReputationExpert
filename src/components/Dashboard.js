@@ -84,12 +84,16 @@ function Dashboard(props) {
     
      
 
-    const config = {
+  /*  const config = {
         headers: { 'Authorization': `Bearer eyJraWQiOiI1RDVOdFM1UHJBajVlSlVOK1RraXVEZE15WWVMMFJQZ3RaUDJGTlhESHpzPSIsImFsZyI6IlJTMjU2In0.eyJjdXN0b206Y291bnRyeSI6IlBIIiwic3ViIjoiOTdmNTA0OWYtZDBmNC00MDRmLTg5N2MtM2RkMzhjYWExODRiIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImN1c3RvbTpwZXJzb25hbGl6YXRpb25BdXRoIjoiMSIsImlzcyI6Imh0dHBzOlwvXC9jb2duaXRvLWlkcC5ldS13ZXN0LTEuYW1hem9uYXdzLmNvbVwvZXUtd2VzdC0xX0FVSGdRMDhDQiIsImNvZ25pdG86dXNlcm5hbWUiOiI5N2Y1MDQ5Zi1kMGY0LTQwNGYtODk3Yy0zZGQzOGNhYTE4NGIiLCJjdXN0b206Y29tcGFueSI6ImtvcnZlciIsImF1ZCI6IjFlZ3M2M3E5OXAzc2ViZWNoc2I3Mjl0ODBvIiwiZXZlbnRfaWQiOiI1NDFkY2EzZC1iMTk5LTRiYmUtYWRkNS1kYjUyNTU2NWY1NDEiLCJ0b2tlbl91c2UiOiJpZCIsImF1dGhfdGltZSI6MTY5NDYwNzY4MywibmFtZSI6ImZyYXMiLCJleHAiOjE2OTQ2OTQwODMsImlhdCI6MTY5NDYwNzY4MywiZmFtaWx5X25hbWUiOiJzaWx2IiwiZW1haWwiOiJjb25zaXN0ZW5nb2xmMUBnbWFpbC5jb20iLCJjdXN0b206bWFya2V0aW5nQXV0aCI6IjEifQ.j2wGS0RFsNaShyTVfaddleK59NxQeSPn4fVqS7hwNl7Nk36qqae7IIyJDKCN8nFzJEmVluFA83bUfNPqQpf3Z3J64T7Wxwl5joLtf-IfWJLS55zplt50yM0fAT8cert5ffIcrLFOeInDP6ksyXC_AI33p6q6PosUzfrl9TtElmTXbwn8EkVSJXP4aM4VR6cnLa62SUYhq6RmJMq-20zC4hUBFIlp7w62oPgI1NXZhdMcwZ4meINVOojvHS8c4hu7rTce8eWqvRreEK0Ho3_8hcLrHexj95EUfm5EDXLeOaF6GEcjNl4ntkHuBALBiLGMGeL-30sQLKVxqGqcJyxvkg`,
+        'Content-type':'application/json'
+     } 
+    }; */
+      const config = {
+        headers: { 'Authorization': `Bearer ${process.env.REACT_APP_EXPERT_AI_TOKEN}`,
         'Content-type':'application/json'
      }
     };
-
     
     const refreshPage=(e)=> {
         window.location.reload(false);
