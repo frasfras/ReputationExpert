@@ -14,6 +14,11 @@ function App(props) {
     
       <div className="container bg-gradent-primary">
         App
+         <header className="App-header">
+                  <b>Skill Summarize </b>
+                  {/* <NameDetails /> */} 
+               
+    </header>
         {/* <Search/> */}
         <Switch>
           <Route path="/" exact component={Login}/>
