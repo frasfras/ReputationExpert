@@ -4,7 +4,7 @@ import {Link } from 'react-router-dom';
 function Login(props) {
 
     const activRoutes=(
-        <nav className="navbar navbar-dark navbar-expand-lg fixed-top text-primary bg-dark portfolio-navbar gradient" >
+     {/*   <nav className="navbar navbar-dark navbar-expand-lg fixed-top text-primary bg-dark portfolio-navbar gradient" >
         <div className="container-fluid"><Link className="navbar-brand logo" href="/">Rep Alert Expert</Link><button data-toggle="collapse" className="navbar-toggler" data-target="#navbarNav"><span className="sr-only">Toggle navigation</span><span className="navbar-toggler-icon"></span></button>
             <div className="collapse navbar-collapse"
                 id="navbarNav">
@@ -22,7 +22,7 @@ function Login(props) {
                 </ul>
             </div>
         </div>
-    </nav>
+    </nav> */}
     );
 
     useEffect(() => {
@@ -79,7 +79,7 @@ function Login(props) {
                                 
                                 <div class="col-lg-12">
                                 
-                              <!--      <div class="p-5">
+                              {/*     <div class="p-5">
                                         <div class="text-center">
                                             <h4 class="text-dark mb-4">Reputation Expert</h4>
                                         </div>
@@ -107,7 +107,7 @@ function Login(props) {
                                         
                                        
                                         
-                                    </div>-->
+                                    </div>  */}
                                 </div>
                             </div>
                         </div>
