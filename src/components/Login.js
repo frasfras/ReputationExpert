@@ -79,7 +79,7 @@ function Login(props) {
                                 
                                 <div class="col-lg-12">
                                 
-                              {/*     <div class="p-5">
+                                   <div class="p-5">
                                         <div class="text-center">
                                             <h4 class="text-dark mb-4">Reputation Expert</h4>
                                         </div>
@@ -107,7 +107,7 @@ function Login(props) {
                                         
                                        
                                         
-                                    </div>  */}
+                                    </div>  
                                 </div>
                             </div>
                         </div>
